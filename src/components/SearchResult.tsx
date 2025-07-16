@@ -3,6 +3,7 @@ import Notes from "../pages/Notes";
 
 export default function SearchBar() {
   const [searchResult, setSearchResult] = useState([]);
+  const showingResult = setSearchResult(searchQuery);
 
   return (
     <>
