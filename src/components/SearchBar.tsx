@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function SearchBar() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [searchValue, setSearchValue] = useState([]);
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
