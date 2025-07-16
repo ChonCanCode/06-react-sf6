@@ -1,6 +1,12 @@
+import SearchBar from "../components/SearchBar";
+
 export default function DailyNotes() {
   return (
     <>
+      <div>
+        <SearchBar />
+      </div>
+
       <div data-date="2025-07-14" data-player="Momo">
         <h2>2025-07-14</h2>
         <div>
