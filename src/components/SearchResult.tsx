@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Notes from "../pages/Notes";
 
-export default function SearchBar() {
+export default function SearchResult() {
   const [searchResult, setSearchResult] = useState([]);
   const showingResult = setSearchResult(searchQuery);
 
