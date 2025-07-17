@@ -2,6 +2,40 @@ import SearchBar from "../components/SearchBar";
 
 const notes = [
   {
+    date: "2025-07-17",
+    tags: ["Neutral"],
+    entry:
+      "Lvl 1 to counter any 2MK > Cdr.lp combo if there is any gap in between",
+  },
+  {
+    date: "2025-07-17",
+    tags: ["Neutral"],
+    entry:
+      "If they catching your HP by counter hit, delay HP with max range or MK > l.dk to push out",
+  },
+  {
+    date: "2025-07-15",
+    tags: ["Neutral"],
+    entry: "MK2 > cdr.2LP > mixup into my game plan",
+  },
+  {
+    date: "2025-07-17",
+    players: ["General"],
+    entries: [
+      "Buffer LvL 1 to counter cdr > lp to punish gapped cdr",
+      "Punished HP > delay HP / MK to push out for distance control",
+    ],
+  },
+  {
+    date: "2025-07-15",
+    players: ["General"],
+    entries: [
+      "Implementing MK2 > cdr.2LP > mixup into the game",
+      "Improve conrer pressure > HP > 2MP",
+      "HP > 2LP on close for frame trap",
+    ],
+  },
+  {
     date: "2025-07-14",
     players: ["Momo"],
     entries: [
