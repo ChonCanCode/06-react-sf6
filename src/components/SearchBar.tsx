@@ -2,8 +2,8 @@ import { useState } from "react";
 
 type NoteEntry = {
   date: string;
-  players: string[];
-  entries: string[];
+  tags: string[];
+  entry: string;
 };
 
 type Props = {
@@ -16,11 +16,10 @@ export default function SearchBar({ notes }: Props) {
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     const query = searchQuery.toLowerCase().trim();
 
     const results = notes.filter((note) =>
-      note.players.some((player) => player.toLowerCase().includes(query))
+      note.tags.some((tag) => tag.toLowerCase().includes(query))
     );
 
     setSearchResults(results);
@@ -31,7 +30,7 @@ export default function SearchBar({ notes }: Props) {
       <form onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Search by player name..."
+          placeholder="Search by tag (e.g., Neutral, Momo)..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -40,19 +39,15 @@ export default function SearchBar({ notes }: Props) {
 
       <div style={{ marginTop: "1rem" }}>
         {searchResults.length === 0 && searchQuery !== "" ? (
-          <p>No notes found for that player.</p>
+          <p>No notes found for that tag.</p>
         ) : (
           searchResults.map((note, index) => (
             <div key={index} style={{ marginBottom: "1.5rem" }}>
               <h3>{note.date}</h3>
               <p>
-                <strong>Players:</strong> {note.players.join(", ")}
+                <strong>Tags:</strong> {note.tags.join(", ")}
               </p>
-              <ul>
-                {note.entries.map((entry, i) => (
-                  <li key={i}>{entry}</li>
-                ))}
-              </ul>
+              <p>{note.entry}</p>
             </div>
           ))
         )}

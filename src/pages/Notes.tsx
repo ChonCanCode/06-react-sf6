@@ -2,6 +2,37 @@ import SearchBar from "../components/SearchBar";
 
 const notes = [
   {
+    date: "2025-07-21",
+    tags: ["Marisa", "Drill"],
+    entry: "Gladius is the start point of neutral",
+  },
+  {
+    date: "2025-07-19",
+    tags: ["Drill"],
+    entry: "Shimmy practice, as much as possible",
+  },
+  {
+    date: "2025-07-19",
+    tags: ["Tournament"],
+    entry:
+      "Didn\u2019t perform well, need to enjoy the flow more. Leaning toward an easy way out. But at least, I did some good combo and gained good experience. Need to attend more competitions to get used to being in the spotlight.",
+  },
+  {
+    date: "2025-07-17",
+    tags: ["Neutral"],
+    entry: "Counter MK > distance timed HP/sweep/l.dk",
+  },
+  {
+    date: "2025-07-17",
+    tags: ["Momo", "JP", "Neutral"],
+    entry: "Counter 2HP -14f >sweep/ l.dk",
+  },
+  {
+    date: "2025-07-17",
+    tags: ["Neutral"],
+    entry: "ex.bomb combo ender prevent rollback!",
+  },
+  {
     date: "2025-07-17",
     tags: ["Neutral"],
     entry:
@@ -19,62 +50,167 @@ const notes = [
     entry: "MK2 > cdr.2LP > mixup into my game plan",
   },
   {
-    date: "2025-07-17",
-    players: ["General"],
-    entries: [
-      "Buffer LvL 1 to counter cdr > lp to punish gapped cdr",
-      "Punished HP > delay HP / MK to push out for distance control",
-    ],
-  },
-  {
     date: "2025-07-15",
-    players: ["General"],
-    entries: [
-      "Implementing MK2 > cdr.2LP > mixup into the game",
-      "Improve conrer pressure > HP > 2MP",
-      "HP > 2LP on close for frame trap",
-    ],
+    tags: ["Neutral", "Corner Pressure"],
+    entry: "Improve corner pressure > HP > 2MP > mixup",
   },
   {
     date: "2025-07-14",
-    players: ["Momo"],
-    entries: [
-      "Bait 2HP - Back dash → 2MK buffer",
-      "With bar - counter dk > 2LP > LP > EX Bomb",
-      "Cornered 2LP -1 + pushed out of light ranges",
-      "Use 2MP CDR into HK → 2HK combo",
-    ],
+    tags: ["Momo", "Neutral"],
+    entry: "Bait HP/2MK - Back dash> 2MK buffer",
+  },
+  {
+    date: "2025-07-14",
+    tags: ["Neutral"],
+    entry: "With bar - counter dk > follow with > 2lp >lp > ex.bomb",
+  },
+  {
+    date: "2025-07-14",
+    tags: ["Neutral", "Cornered escape"],
+    entry: "Cornered 2LP -1 + pushed out of my light ranges",
+  },
+  {
+    date: "2025-07-14",
+    tags: ["Neutral", "Drill"],
+    entry: "Use 2MP CDR into HK 2HK combo.",
   },
   {
     date: "2025-07-13",
-    players: ["Tony", "Momo"],
-    entries: [
-      "Anti ball with parry buffer drive rush",
-      "Use more 2MK at corner",
-      "On close: more 2HP → 2LP",
-    ],
+    tags: ["Momo", "Tony"],
+    entry: "Anti ball with parry buffer drive rush",
+  },
+  {
+    date: "2025-07-13",
+    tags: ["Neutral", "Cornered escape"],
+    entry: "more 2MK at corner",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Fine tune instant l.dk to avoid misinput into level 1",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Practice basic over head l.bomb fix the timing",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Practice post dk. Frame trap timing (-1f gap)rf",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Space trap dr.2LK > 2LP > LP > space trap 2MP",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Block chain dr.2LK > 2LP > LP > 2MK/MK > l.dk",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Neutral", "Drill"],
+    entry: "Jump in shimmy (with no attack) micro walk then MP > 2MP",
+  },
+  {
+    date: "2025-07-11",
+    tags: ["Momo"],
+    entry: "2MK > -3 > can punish on reaction with 2MP/ 2MK on far",
   },
   {
     date: "2025-07-10",
-    players: ["Tony"],
-    entries: [
-      "Good opening, but need better awareness to capture the opportunity to maximise damage. Slowing pushing to my corner, hold your ground, in case of jump in just",
-      "HP counter is a -6 continue 2MP buffer",
-    ],
+    tags: ["Tony"],
+    entry: "Counter is a -6 continue 2MP buffer",
   },
   {
     date: "2025-07-10",
-    players: ["General"],
-    entries: [
-      "On Bomb double HP > 1st HP to control range > 2nd HP to gap close for > 2MP > m.Bomb (once bomb on block triggered then block chain frame trap rotations)",
-      "Think of block chain rotation",
-      "Block chain option 1 Safe > 6HK > 2LK > 2LP",
-      "Block chain option 2 > 6HK > 6HK",
-      "Block chain option 3 > 6HK > 2MP",
-      "1. Cornered pressure > 2HP > 2MP",
-      "2. Cornered pressure jumper > 2HP > 2MK > 2HP",
-      "What to do with +3 after target combo?",
-    ],
+    tags: ["Neutral"],
+    entry:
+      "HIGH RISK On Bomb double HP > 1st HP to control range > 2nd HP to gap close for > 2MP > m.Bomb (once bomb on block triggered then block chain frame trap rotations)",
+  },
+  {
+    date: "2025-07-10",
+    tags: ["Neutral"],
+    entry: "Block chain Safe > 4HK >  2LK > 2LP",
+  },
+  {
+    date: "2025-07-10",
+    tags: ["Neutral"],
+    entry: "Block chain 4HK > 6HK >",
+  },
+  {
+    date: "2025-07-10",
+    tags: ["Neutral"],
+    entry: "Block chain  4HK > 2MP",
+  },
+  {
+    date: "2025-07-10",
+    tags: ["Corner Escape", "Drill"],
+    entry: "Cornered > DR 2LK > 2LP > 2LP > Option select",
+  },
+  {
+    date: "2025-07-02",
+    tags: ["Seafire"],
+    entry:
+      "Under cornered Juri MP to space trap due to hurt boss is behind her feet as soon as i HP my hurt box will be reached by her hit box. But she with whiff MP watch for that for whiff punish or jump out.",
+  },
+  {
+    date: "2025-07-02",
+    tags: ["seafire"],
+    entry: "Look for safe reversal to buffer under corner pressure",
+  },
+  {
+    date: "2025-07-02",
+    tags: ["Seafire"],
+    entry: "Do meaty to target bar dmg",
+  },
+  {
+    date: "2025-07-02",
+    tags: ["Seafire"],
+    entry: "Use more good buttons to frame trap opponents but not to whiff",
+  },
+  {
+    date: "2025-07-02",
+    tags: ["Seafire"],
+    entry: "Tech too early, I got conditioned for shimmy",
+  },
+  {
+    date: "2025-06-30",
+    tags: ["Neutral"],
+    entry: "Anti 2MK > b dash",
+  },
+  {
+    date: "2025-06-28",
+    tags: ["Momo"],
+    entry: "Need better combo option > always go for kill",
+  },
+  {
+    date: "2025-06-28",
+    tags: ["Momo"],
+    entry:
+      "When 2LP always buffer with 2MP just in case of counter hit for better escape and potential",
+  },
+  {
+    date: "2025-06-28",
+    tags: ["Momo"],
+    entry: "Practice dr > l.dk on round start",
+  },
+  {
+    date: "2025-06-27",
+    tags: ["Momo"],
+    entry: "Anti-air > 2HP > level 2",
+  },
+  {
+    date: "2025-06-27",
+    tags: ["Neutral"],
+    entry: "Learn CDR shimmy",
+  },
+  {
+    date: "2025-06-26",
+    tags: ["Neutral", "Hotdog"],
+    entry: "bomb light confirm into ex.backfist > h.backfist",
   },
 ];
 
