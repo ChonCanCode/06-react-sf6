@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type NoteEntry = {
   date: string;
@@ -13,6 +13,10 @@ type Props = {
 export default function SearchBar({ notes }: Props) {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<NoteEntry[]>([]);
+
+  useEffect(() => {
+    setSearchResults(notes);
+  }, [notes]);
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -30,14 +34,14 @@ export default function SearchBar({ notes }: Props) {
       <form onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Search by tag (e.g., Neutral, Momo)..."
+          placeholder="Search by tag.."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         <button type="submit">Search</button>
       </form>
 
-      <div style={{ marginTop: "1rem" }}>
+      <div>
         {searchResults.length === 0 && searchQuery !== "" ? (
           <p>No notes found for that tag.</p>
         ) : (
