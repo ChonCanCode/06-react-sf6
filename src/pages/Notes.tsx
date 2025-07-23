@@ -1,5 +1,4 @@
 import SearchBar from "../components/SearchBar";
-
 const notes = [
   {
     date: "2025-07-21",

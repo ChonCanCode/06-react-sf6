@@ -1,0 +1,90 @@
+{
+  "MIX UP": [
+    "dr.2LK",
+    "dr.lp",
+    {
+      "2MK > cdr.2LP > shimmy": [
+        "Delay Tech / Tech > Shimmy",
+        "Checker > block chain"
+      ]
+    },
+    {
+      "Jump in": [
+        "Shimmy > micro walk MP > 2MP",
+        "Shimmy > medium gap > 2MK > buffer",
+        "Push out > 4HK > LK > LP > MK / HP"
+      ]
+    },
+    "HP > 2MP",
+    {
+      "Scissor kicks mixup": [
+        "On hit +3",
+        "Safe on hit = 2LK",
+        "No safe frame trap + extend adv = MP > 2MP",
+        {
+          "Hard read Opp walk back = 2MK > buffer": [
+            "If 3.1 bar > cdr.MP > MP > 2MP"
+          ]
+        },
+        {
+          "On block -3": ["(details missing)"]
+        }
+      ]
+    }
+  ],
+  "OPENING": [
+    {
+      "Aggressive": [
+        "Drive rush",
+        "2lk - confirm into l.crusher",
+        "2lk < JUMP - 2HP into backfist",
+        "2lk < WALK BACK - 2MK next & buffer",
+        "dash 2lp > jump in",
+        "MP > Option select",
+        "throw"
+      ]
+    },
+    "Defensive",
+    "Neutral jump",
+    "Check"
+  ],
+  "NEUTRAL": [
+    "Spacing",
+    "2MK",
+    "drive rush",
+    {
+      "l.dk": [
+        "WALK BACK - 2MK",
+        "ANTI-THROW - Shimmy",
+        {
+          "LOW BLOCK": ["MP > 6HP", "lp - bait for reaction > counter"]
+        }
+      ]
+    },
+    "Poke (test for reaction)",
+    {
+      "l.dk": ["BLOCKER - walk-throw"]
+    },
+    {
+      "Block chain - 2LK > 2LP > 2MK > l.dk": [
+        "Block chain unsafe - MP > option select",
+        "Frame trap unsafe - 2HK > LP x 2"
+      ]
+    },
+    "Walk backer - 2MK > ex.dk",
+    "THROWER - shimmy",
+    "DELAY TECHER - unsafe normal",
+    "WHIFF PUNISHER - LP (fake) > 2MK buffer",
+    "2MK",
+    "HP +1",
+    "MIX UP",
+    "HP > 2MP > 28HK",
+    "2MK",
+    "MP > 6HP",
+    "Checking drive rush",
+    "CLOSE > 2LP > 2MP > ex.dk",
+    {
+      "Whiff punish": ["HK", "h.dk"]
+    }
+  ]
+}
