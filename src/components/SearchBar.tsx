@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 type NoteEntry = {
   date: string;
   tags: string[];
-  entry: string;
+  entry: string[];
 };
 
 type Props = {
@@ -51,7 +51,11 @@ export default function SearchBar({ notes }: Props) {
               <p>
                 <strong>Tags:</strong> {note.tags.join(", ")}
               </p>
-              <p>{note.entry}</p>
+              <li>
+                {note.entry.map((value, i) => (
+                  <ul key={i}>{value}</ul>
+                ))}
+              </li>
             </div>
           ))
         )}
