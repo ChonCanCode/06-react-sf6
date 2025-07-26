@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import Notes from "./pages/Notes";
-import Characters from "./pages/characters/Characters";
+import Flowchart from "./pages/Flowchart";
 import NavBar from "./components/NavBar";
 import Bison from "./pages/characters/Bison";
 import { Routes, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/character" element={<Characters />} />
+          <Route path="/flowchart" element={<Flowchart />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/bison" element={<Bison />} />
         </Routes>
