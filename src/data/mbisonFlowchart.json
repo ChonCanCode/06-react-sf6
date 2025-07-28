@@ -1,7 +1,6 @@
 [
   {
     "tag": "Neutral",
-    "bar": 0,
     "move": "Knee press",
     "options": [
       {
@@ -24,8 +23,46 @@
             ]
           },
           {
-            "condition": "Pushish hit (+6 frames)",
+            "condition": "Punish hit (+6 frames)",
             "options": ["2MP > m.backfist"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Whiff Punish, post bomb, optimald",
+    "move": "HP, devil rise, crusher",
+    "options": [
+      {
+        "condition": "Player 2 after DP whiff",
+        "followUps": [
+          {
+            "condition": "2 Bars",
+            "options": [
+              "6150 - SA3 - micro walk > HP > HK > 2MP > 46PP > 6HP > 46LP > SA3",
+              "5000 - SA2 - micro walk > HP > HK > 2MP > 46PP > HP > SA2",
+              "4470 - SA1 - micro walk > HP > HK > 2MP > 46PP > HP > SA1",
+              "4150 - micro walk > HP > HK > 2MP > 46PP > 6HP > 46LP"
+            ]
+          },
+          {
+            "condition": "4 Bars",
+            "options": [
+              "6840 - SA3 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP > SA3",
+              "6060 - SA2 - micro walk > HK > 28KK > K > 46PP > HP > SA2",
+              "5460 - SA1 - micro walk > HK > 28KK > K > 46PP > HP > SA1",
+              "4840 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP"
+            ]
+          },
+          {
+            "condition": "6 Bars",
+            "options": [
+              "7480 - SA3 - micro walk > HK > 28KK > K > 46PP > 28K > KK > 6HP > 46LP > SA3",
+              "6500 - SA2 - micro walk > HK > 28KK > K > 46PP > 28K > KK > HP > SA2",
+              "6000 - SA1 - micro walk > HK > 28KK > K > 46PP > 28K > KK > HP > SA1",
+              "5480 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP"
+            ]
           }
         ]
       }
