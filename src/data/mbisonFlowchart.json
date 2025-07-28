@@ -1,71 +1,168 @@
-[
-  {
-    "tag": "Neutral",
-    "move": "Knee press",
-    "options": [
-      {
-        "condition": "light knee press (Poke and drive rush check)",
-        "followUps": [
-          {
-            "condition": "Normal hit (+2 frames)",
-            "options": [
-              "2LP > 2LP (for frame trap)",
-              "2LP > Throw",
-              "walk throw (unsafe)",
-              "MP (Unsafe)"
-            ]
-          },
-          {
-            "condition": "Counter hit (+4 frames)",
-            "options": [
-              "2LP > LP (bars > 2) > ex.backfist",
-              "2LP > LP > l.crusher"
-            ]
-          },
-          {
-            "condition": "Punish hit (+6 frames)",
-            "options": ["2MP > m.backfist"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "tag": "Whiff Punish, post bomb, optimald",
-    "move": "HP, devil rise, crusher",
-    "options": [
-      {
-        "condition": "Player 2 after DP whiff",
-        "followUps": [
-          {
-            "condition": "2 Bars",
-            "options": [
-              "6150 - SA3 - micro walk > HP > HK > 2MP > 46PP > 6HP > 46LP > SA3",
-              "5000 - SA2 - micro walk > HP > HK > 2MP > 46PP > HP > SA2",
-              "4470 - SA1 - micro walk > HP > HK > 2MP > 46PP > HP > SA1",
-              "4150 - micro walk > HP > HK > 2MP > 46PP > 6HP > 46LP"
-            ]
-          },
-          {
-            "condition": "4 Bars",
-            "options": [
-              "6840 - SA3 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP > SA3",
-              "6060 - SA2 - micro walk > HK > 28KK > K > 46PP > HP > SA2",
-              "5460 - SA1 - micro walk > HK > 28KK > K > 46PP > HP > SA1",
-              "4840 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP"
-            ]
-          },
-          {
-            "condition": "6 Bars",
-            "options": [
-              "7480 - SA3 - micro walk > HK > 28KK > K > 46PP > 28K > KK > 6HP > 46LP > SA3",
-              "6500 - SA2 - micro walk > HK > 28KK > K > 46PP > 28K > KK > HP > SA2",
-              "6000 - SA1 - micro walk > HK > 28KK > K > 46PP > 28K > KK > HP > SA1",
-              "5480 - micro walk > HK > 28KK > K > 46PP > 6HP > 46LP"
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "combos": [
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 2,
+      "damage": 6150,
+      "super": "SA3",
+      "moves": ["mico walk", "HP", "HK", "2MP", "46PP", "6HP", "46LP", "SA3"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 2,
+      "damage": 5000,
+      "super": "SA2",
+      "moves": ["mico walk", "HP", "HK", "2MP", "46PP", "HP", "SA2"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 2,
+      "damage": 4470,
+      "super": "SA1",
+      "moves": ["mico walk", "HP", "HK", "2MP", "46PP", "HP", "SA1"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 2,
+      "damage": 4150,
+      "super": "0",
+      "moves": ["mico walk", "HP", "HK", "2MP", "46PP", "6HP", "46LP"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 4,
+      "damage": 6840,
+      "super": "SA3",
+      "moves": ["mico walk", "HK", "28KK", "K", "46PP", "6HP", "46LP", "SA3"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 4,
+      "damage": 6060,
+      "super": "SA2",
+      "moves": ["mico walk", "HK", "28KK", "K", "46PP", "HP", "SA2"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 4,
+      "damage": 5460,
+      "super": "SA1",
+      "moves": ["mico walk", "HK", "28KK", "K", "46PP", "HP", "SA1"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 4,
+      "damage": 4840,
+      "super": "0",
+      "moves": ["mico walk", "HK", "28KK", "K", "46PP", "6HP", "46LP"]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 6,
+      "damage": 7480,
+      "super": "SA3",
+      "moves": [
+        "mico walk",
+        "HK",
+        "28KK",
+        "K",
+        "46PP",
+        "28K",
+        "KK",
+        "6HP",
+        "46LP",
+        "SA3"
+      ]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 6,
+      "damage": 6500,
+      "super": "SA2",
+      "moves": [
+        "mico walk",
+        "HK",
+        "28KK",
+        "K",
+        "46PP",
+        "28K",
+        "KK",
+        "HP",
+        "SA2"
+      ]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 6,
+      "damage": 6000,
+      "super": "SA1",
+      "moves": [
+        "mico walk",
+        "HK",
+        "28KK",
+        "K",
+        "46PP",
+        "28K",
+        "KK",
+        "HP",
+        "SA1"
+      ]
+    },
+    {
+      "tags": ["Whiff Punish", "post bomb", "DP Whiff"],
+      "meter": 6,
+      "damage": 5480,
+      "super": "0",
+      "moves": ["mico walk", "HK", "28KK", "K", "46PP", "6HP", "46LP"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2LP", "2LP"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2LP", "Throw"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["walk", "Throw"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2LP", "MP"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2LP", "LP", "214PP"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2LP", "LP", "l.crusher"]
+    },
+    {
+      "tags": ["Neutral", "Layer 1", "Knee Press"],
+      "meter": "0 Bars",
+      "damage": "0",
+      "super": "0",
+      "moves": ["2MP", "214MP"]
+    }
+  ]
+}
