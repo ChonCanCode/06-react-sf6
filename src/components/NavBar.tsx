@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="flex space-x-2 underline">
       <Link to="/">Home</Link>
-      <Link to="/character">Flowchart</Link>
+      <Link to="/flowchart">Flowchart</Link>
       <Link to="/notes">Notes</Link>
     </nav>
   );
