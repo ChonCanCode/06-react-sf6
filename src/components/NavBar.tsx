@@ -7,6 +7,7 @@ export default function NavBar() {
       <Link to="/">Home</Link>
       <Link to="/flowchart">Flowchart</Link>
       <Link to="/notes">Notes</Link>
+      <Link to="/jsonformatter">JSON Formatter</Link>
     </nav>
   );
 }
