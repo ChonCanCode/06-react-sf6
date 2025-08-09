@@ -1,0 +1,49 @@
+[
+  {
+    "date": "2025-08-09",
+    "tags": ["Drive rush", "entry", "low", "SA3", "2MK"],
+    "comboStart": "DR > 2MK",
+    "comment": "Use this entry after bomb or when the character is conditioned to block high (tag: Overhead conditioning).",
+    "block": {
+      "frameAdvantage": -1,
+      "options": ["Block first attack then take the turn back"]
+    },
+    "normalHit": {
+      "frameAdvantage": 8,
+      "options": [
+        "2MP > 28HK (1820) > level 3 (3960)",
+        "MP > 4HP > 214LP > 28HK (2240)"
+      ]
+    },
+    "counterHit": {
+      "frameAdvantage": 10,
+      "options": []
+    },
+    "punishCounterHit": {
+      "frameAdvantage": 12,
+      "options": []
+    }
+  },
+  {
+    "date": "2025-08-09",
+    "tags": ["Drive rush", "entry", "overhead", "SA3", "6HP"],
+    "comboStart": "DR > 6MP",
+    "comment": "Overhead can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand.",
+    "block": {
+      "frameAdvantage": -1,
+      "options": ["Block first attack then take the turn back"]
+    },
+    "normalHit": {
+      "frameAdvantage": 6,
+      "options": ["2MP > 28HK (2520) > level 3 (4920)"]
+    },
+    "counterHit": {
+      "frameAdvantage": 8,
+      "options": []
+    },
+    "punishCounterHit": {
+      "frameAdvantage": 10,
+      "options": []
+    }
+  }
+]
