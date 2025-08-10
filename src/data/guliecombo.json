@@ -1,49 +1,51 @@
 [
   {
-    "date": "2025-08-09",
-    "tags": ["Drive rush", "entry", "low", "SA3", "2MK"],
-    "comboStart": "DR > 2MK",
-    "comment": "Use this entry after bomb or when the character is conditioned to block high (tag: Overhead conditioning).",
-    "block": {
-      "frameAdvantage": -1,
-      "options": ["Block first attack then take the turn back"]
-    },
-    "normalHit": {
-      "frameAdvantage": 8,
-      "options": [
-        "2MP > 28HK (1820) > level 3 (3960)",
-        "MP > 4HP > 214LP > 28HK (2240)"
-      ]
-    },
-    "counterHit": {
-      "frameAdvantage": 10,
-      "options": []
-    },
-    "punishCounterHit": {
-      "frameAdvantage": 12,
-      "options": []
-    }
+    "tags": ["drive rush", "entry", "low"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DR > 2MK > 2MP (must be in range) > 28HK (1960) > SA3 (3960)",
+    "comment": "Use this entry after a fireball or on a character who is conditioned to block high (tag: Overhead conditioning)."
   },
   {
-    "date": "2025-08-09",
-    "tags": ["Drive rush", "entry", "overhead", "SA3", "6HP"],
-    "comboStart": "DR > 6MP",
-    "comment": "Overhead can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand.",
-    "block": {
-      "frameAdvantage": -1,
-      "options": ["Block first attack then take the turn back"]
-    },
-    "normalHit": {
-      "frameAdvantage": 6,
-      "options": ["2MP > 28HK (2520) > level 3 (4920)"]
-    },
-    "counterHit": {
-      "frameAdvantage": 8,
-      "options": []
-    },
-    "punishCounterHit": {
-      "frameAdvantage": 10,
-      "options": []
-    }
+    "tags": ["drive rush", "entry", "low"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DR > 2MK > MP (must be close) > 4HP > 214LP > 28HK (2240) > SA3",
+    "comment": ""
+  },
+  {
+    "tags": ["drive rush", "entry", "low"],
+    "gauge": 4,
+    "SA": 3,
+    "moveSet": "DR > 2MK > 2MP > cdr.MP > 3HK > 28HK (2432) > SA3",
+    "comment": ""
+  },
+  {
+    "tags": ["drive rush", "dr", "sa3", "6hp", "overhead", "entry"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DR > 6MP > 2MP > 28HK (2520) > level 3 (4920)",
+    "comment": "Unsafe overhead entry can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand, or as a surprise attack."
+  },
+  {
+    "tags": ["di"],
+    "gauge": 3,
+    "SA": 0,
+    "moveSet": "DI > Wall bounce > 2HK > 3HK > 28HK > 28KK (2980)",
+    "comment": "Max damage with ex.flash"
+  },
+  {
+    "tags": ["di", "sa3"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DI > Wall bounce > 3HK > 28HK (2440) > SA3",
+    "comment": ""
+  },
+  {
+    "tags": ["di", "sa3"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DI > Punish Counter > 3HK > 28HK (2740) > SA3",
+    "comment": ""
   }
 ]

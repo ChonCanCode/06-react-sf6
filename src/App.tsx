@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import Notes from "./pages/Notes";
-import Flowchart from "./pages/Flowchart";
+import Combo from "./pages/Combo";
 import NavBar from "./components/NavBar";
 import JsonFormatter from "./pages/JsonFormatter";
 import { Routes, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/flowchart" element={<Flowchart />} />
+          <Route path="/combo" element={<Combo />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/jsonformatter" element={<JsonFormatter />} />
         </Routes>
