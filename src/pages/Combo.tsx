@@ -36,7 +36,7 @@ export default function Combo() {
   };
 
   return (
-    <>
+    <div className="mb-2 mt-2">
       <form onSubmit={handleSearch}>
         <input
           type="text"
@@ -76,6 +76,6 @@ export default function Combo() {
           ))
         )}
       </div>
-    </>
+    </div>
   );
 }

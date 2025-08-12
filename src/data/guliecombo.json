@@ -1,5 +1,26 @@
 [
   {
+    "tags": ["shimmy", "4LK", ""],
+    "gauge": 1,
+    "SA": 0,
+    "moveSet": "DR > 4LK > back dash > 2HK > 3HK > 28HK",
+    "comment": "Use this they are conditioned to anti throw/ delay throw tech."
+  },
+  {
+    "tags": ["oki", "overhead", "28HK"],
+    "gauge": 0,
+    "SA": 0,
+    "moveSet": " Oki.28HK > LK(frame kill) > 6MP > 2LP > 28HK",
+    "comment": "Use this after heavy flash knock down for active frame kill otherwise only +2 on 6MP on hit."
+  },
+  {
+    "tags": ["oki", "space trap", "low", "whiff punish", "block chain"],
+    "gauge": 0,
+    "SA": 0,
+    "moveSet": "Oki.throw > 46LP > 4HP > 46LP || 2HK > 3HK > 28HK > || Bait for 28HK anti neutral jump",
+    "comment": "Use this after forward throw at corner to continue pressure after throw."
+  },
+  {
     "tags": ["drive rush", "entry", "low"],
     "gauge": 1,
     "SA": 3,
