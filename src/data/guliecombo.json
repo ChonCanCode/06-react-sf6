@@ -1,5 +1,12 @@
 [
   {
+    "tags": ["CDR", "whiff punish", "Target Combo"],
+    "gauge": 3,
+    "SA": 0,
+    "moveSet": "Whiffed > HP > Punish counter > cdr.HK > MP > 4HP > 28HK",
+    "comment": "Mostly use on opponent DP whiff, can also try HP poke and see."
+  },
+  {
     "tags": ["shimmy", "4LK", ""],
     "gauge": 1,
     "SA": 0,
