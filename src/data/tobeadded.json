@@ -1,0 +1,18 @@
+[
+  {
+    "tags": ["DI", "SA3", "Wall Bounce"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DI > Wall bounce > 3HK > 28HK (2440) > SA3",
+    "comment": "",
+    "gif": ""
+  },
+  {
+    "tags": ["DI", "SA3"],
+    "gauge": 1,
+    "SA": 3,
+    "moveSet": "DI > Punish Counter > 3HK > 28HK (2740) > SA3",
+    "comment": "",
+    "gif": ""
+  }
+]

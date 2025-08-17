@@ -7,6 +7,7 @@ type ComboType = {
   SA: number;
   moveSet: string;
   comment: string;
+  gif: string;
 };
 
 export default function Combo() {
@@ -74,12 +75,21 @@ export default function Combo() {
           <p>No results found.</p>
         ) : (
           searchResults.map((combo, idx) => (
-            <div key={idx} className="bg-gray-200 rounded-sm px-1 my-2">
-              <h3>Tags: {combo.tags.join(", ")}</h3>
-              <p>Gauge: {combo.gauge}</p>
-              <p>Super Act: {combo.SA}</p>
-              <p>Move Set: {combo.moveSet}</p>
-              <p>Comment: {combo.comment}</p>
+            <div key={idx} className="bg-gray-200 rounded-sm px-1 py-1 my-2">
+              <h3 className="font-semibold">Tags: {combo.tags.join(", ")}</h3>
+              <p className="text-green-600">Gauge: {combo.gauge}</p>
+              <p className="text-red-500">Super Act: {combo.SA}</p>
+              <p>
+                Move Set: <span className="underline">{combo.moveSet}</span>
+              </p>
+              <p className="text-gray-700">Comment: {combo.comment}</p>
+              <div className="flex justify-center">
+                <img
+                  src={combo.gif}
+                  alt="combo gif"
+                  className="rounded-md m-2 flex justify-center"
+                />
+              </div>
             </div>
           ))
         )}

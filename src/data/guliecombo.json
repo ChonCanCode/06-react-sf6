@@ -1,79 +1,58 @@
 [
   {
-    "tags": ["CDR", "whiff punish", "Target Combo"],
+    "tags": ["Safe Guess", "Corner Pressure"],
     "gauge": 3,
     "SA": 0,
-    "moveSet": "Whiffed > HP > Punish counter > cdr.HK > MP > 4HP > 28HK",
-    "comment": "Mostly use on opponent DP whiff, can also try HP poke and see."
+    "moveSet": "2MP >  cdr.MP > MP > 4HP > 46LP > 28HK",
+    "comment": "Safe poke with 2MP cdr & MP > MP to hit confirm(2800)",
+    "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRnbm44bzcxeG1sN3RpdjF4d3hvZGtianFzbHo0eTRkaTY0dDR6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhTqXsULBUuJd3waKu/giphy.gif"
   },
   {
-    "tags": ["shimmy", "4LK", ""],
-    "gauge": 1,
+    "tags": ["Shimmy", "Corner Pressure"],
+    "gauge": 3,
     "SA": 0,
-    "moveSet": "DR > 4LK > back dash > 2HK > 3HK > 28HK",
-    "comment": "Use this they are conditioned to anti throw/ delay throw tech."
+    "moveSet": "HP(PC) > HP > cdr.HK > MP > 4HP > 46LP > 28HK",
+    "comment": "Mostly use on opponent DP whiff or wake up shimmy, can also try HP poke and see. (3266)",
+    "gif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRma2VkejQ5NmZrYXgzY2l5dGF6OGFhYjE1NmZtemthMXBvaTZjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/31hCmZroNkSPlwZkVu/giphy.gif"
   },
   {
-    "tags": ["oki", "overhead", "28HK"],
+    "tags": ["Drive Rush", "Shimmy"],
+    "gauge": 4,
+    "SA": 0,
+    "moveSet": "DR > 4LK > 44 > HP(PC) > cdr.HK > MP > 4HP > 46LP > 28HK",
+    "comment": "Use this they are conditioned to anti throw/ delay throw tech.(3306)",
+    "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJicTJpemtiYno2cHZob3R2anh6NW1lcHkzMHdxa3p4NWduYmJkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WLzyK462HDVni0mPL2/giphy.gif"
+  },
+  {
+    "tags": ["OKI", "Overhead"],
     "gauge": 0,
     "SA": 0,
     "moveSet": " Oki.28HK > LK(frame kill) > 6MP > 2LP > 28HK",
-    "comment": "Use this after heavy flash knock down for active frame kill otherwise only +2 on 6MP on hit."
+    "comment": "Use this after heavy flash knock down for active frame kill otherwise only +2 on 6MP on hit. (2220)",
+    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJvY2hoeDBxeGNkd2lrOHRiMmF6azBsM3gxa3VyNXYxcGoxeWRubCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8XZfGkM4k2rbhN79Kl/giphy.gif"
   },
   {
-    "tags": ["oki", "space trap", "low", "whiff punish", "block chain"],
+    "tags": ["OKI", "Space Trap", "whiff punish", "block chain"],
     "gauge": 0,
     "SA": 0,
-    "moveSet": "Oki.throw > 46LP > 4HP > 46LP || 2HK > 3HK > 28HK > || Bait for 28HK anti neutral jump",
-    "comment": "Use this after forward throw at corner to continue pressure after throw."
+    "moveSet": "46LP > 4HP > 46LP > 2HK > 3HK > 28HK",
+    "comment": "Use this after forward throw at corner to continue pressure after throw.(1720)",
+    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXNwcjB3YjBybGYwN20yaTZoczNjNzMxenEyc3d4MzF2N3U5bDJqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/abMYPU7MSStRQDwhir/giphy.gif"
   },
   {
-    "tags": ["drive rush", "entry", "low"],
-    "gauge": 1,
-    "SA": 3,
-    "moveSet": "DR > 2MK > 2MP (must be in range) > 28HK (1960) > SA3 (3960)",
-    "comment": "Use this entry after a fireball or on a character who is conditioned to block high (tag: Overhead conditioning)."
-  },
-  {
-    "tags": ["drive rush", "entry", "low"],
-    "gauge": 1,
-    "SA": 3,
-    "moveSet": "DR > 2MK > MP (must be close) > 4HP > 214LP > 28HK (2240) > SA3",
-    "comment": ""
-  },
-  {
-    "tags": ["drive rush", "entry", "low"],
-    "gauge": 4,
-    "SA": 3,
-    "moveSet": "DR > 2MK > 2MP > cdr.MP > 3HK > 28HK (2432) > SA3",
-    "comment": ""
-  },
-  {
-    "tags": ["drive rush", "dr", "sa3", "6hp", "overhead", "entry"],
+    "tags": ["Overhead", "Entry", "SA3"],
     "gauge": 1,
     "SA": 3,
     "moveSet": "DR > 6MP > 2MP > 28HK (2520) > level 3 (4920)",
-    "comment": "Unsafe overhead entry can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand, or as a surprise attack."
+    "comment": "Unsafe overhead entry can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand, or as a surprise attack.",
+    "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2k1OGV4N21lYzQ5N25ncmJycWtvdjJyc3QzcjRycmk2dms2NndiMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kVVap16ftD1c3Jj66u/giphy.gif"
   },
   {
-    "tags": ["di"],
+    "tags": ["DI", "Wall Bounce"],
     "gauge": 3,
     "SA": 0,
-    "moveSet": "DI > Wall bounce > 2HK > 3HK > 28HK > 28KK (2980)",
-    "comment": "Max damage with ex.flash"
-  },
-  {
-    "tags": ["di", "sa3"],
-    "gauge": 1,
-    "SA": 3,
-    "moveSet": "DI > Wall bounce > 3HK > 28HK (2440) > SA3",
-    "comment": ""
-  },
-  {
-    "tags": ["di", "sa3"],
-    "gauge": 1,
-    "SA": 3,
-    "moveSet": "DI > Punish Counter > 3HK > 28HK (2740) > SA3",
-    "comment": ""
+    "moveSet": "DI > 2HK > 3HK > 28HK > 28KK",
+    "comment": "Max damage with ex.flash (2980)",
+    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGc4eGk4dzk1cHBqMjg4dWtjeGJ1bzVnM2M4a3g3ZTgzbTV5bzVzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWtTkyz57yLuJ7pHmx/giphy.gif"
   }
 ]
