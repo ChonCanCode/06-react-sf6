@@ -3,7 +3,7 @@ import "../style/style.css";
 
 export default function NavBar() {
   return (
-    <nav className="flex space-x-2 underline">
+    <nav className="flex space-x-2 underline font-bold">
       <Link to="/">Home</Link>
       <Link to="/combo">Combo</Link>
       <Link to="/notes">Notes</Link>

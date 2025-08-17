@@ -36,15 +36,17 @@ export default function Combo() {
   };
 
   return (
-    <div className="mb-2 mt-2">
-      <form onSubmit={handleSearch}>
+    <div className="mb-2 mt-2 flex-col">
+      <form onSubmit={handleSearch} className="flex justify-baseline">
         <input
+          className="border-1 border-black focus:bg-gray-100 rounded-md mr-2 px-2"
           type="text"
           placeholder="Search by tag..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         <input
+          className="border-1 border-black focus:bg-gray-100 rounded-md mr-2 px-2"
           type="number"
           placeholder="Filter by Gauge"
           value={gaugeFilter}
@@ -52,13 +54,19 @@ export default function Combo() {
           min={0}
         />
         <input
+          className="border-1 border-black focus:bg-gray-100 rounded-md mr-2 px-2"
           type="number"
           placeholder="Filter by SA"
           value={saFilter}
           onChange={(e) => setSaFilter(e.target.value)}
           min={0}
         />
-        <button type="submit">Search</button>
+        <button
+          type="submit"
+          className="bg-blue-600 text-white px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        >
+          Search
+        </button>
       </form>
 
       <div>
@@ -66,7 +74,7 @@ export default function Combo() {
           <p>No results found.</p>
         ) : (
           searchResults.map((combo, idx) => (
-            <div key={idx}>
+            <div key={idx} className="bg-gray-200 rounded-sm px-1 my-2">
               <h3>Tags: {combo.tags.join(", ")}</h3>
               <p>Gauge: {combo.gauge}</p>
               <p>Super Act: {combo.SA}</p>

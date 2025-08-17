@@ -8,7 +8,7 @@ import "./style/style.css";
 
 function App() {
   return (
-    <>
+    <div className="m-2">
       <div>
         <NavBar />
       </div>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/jsonformatter" element={<JsonFormatter />} />
         </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
