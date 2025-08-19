@@ -1,9 +1,17 @@
 [
   {
+    "tags": ["Perfect Loop", "Corner Pressure", "Stun", "Jump in"],
+    "gauge": 4,
+    "SA": 0,
+    "moveSet": "9 > HK > HP > cdr.HK > 2MP > 46LP > 2MP > 46LP > 4HP > 46LP > 28HK",
+    "comment": "Stun combo",
+    "gif": ""
+  },
+  {
     "tags": ["Perfect Loop", "Corner Pressure", "Safe Check"],
     "gauge": 4,
     "SA": 0,
-    "moveSet": "DR > MP > MP > 2MP > 46LP > 4HP > HK > 2MP > 46LP > 2MP > 46LP ",
+    "moveSet": "DR > MP > MP > 2MP > 46LP > 4HP > cdr.HK > 2MP > 46LP > 2MP > 46LP ",
     "comment": "Safe drive rush check, but require perfect boom",
     "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzU4MDRjejBraG51NDZncWVqbmlkY2txdzZobjlzdWRjd2Jha3MwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxcSyK1s0vU8BIqV1J/giphy.gif"
   },
