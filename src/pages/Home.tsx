@@ -90,7 +90,7 @@ export default function Combo() {
                       key={gifIdx}
                       src={gifUrl}
                       alt={`combo gif ${gifIdx + 1}`}
-                      className="rounded-md m-2 max-w-xs"
+                      className="rounded-md m-2 w-auto"
                     />
                   ))}
                 </div>
