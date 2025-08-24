@@ -1,11 +1,49 @@
 [
   {
+    "tags": ["Akuma", "Demon Guillotine", "Answer"],
+    "gauge": 1,
+    "SA": 0,
+    "moveSet": "28LK || PP",
+    "comment": "If confident use PP to side switch, otherwise 28LK is a good answer",
+    "gifs": [
+      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzlsZWI3bTJxZWZ1cTNybXpvd2NvNHZxZnNiOXJtd2hjNXR2dTRhNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r6yYFYGT8Ag2zoMGIU/giphy.gif"
+    ]
+  },
+  {
+    "tags": ["Air to Air", "Answer", "Jump in"],
+    "gauge": 1,
+    "SA": 0,
+    "moveSet": "9 > HK > 28HK || 9 > HK > dr.2HK > 3HK > 28HK",
+    "comment": "On hard read always charge after jump, however, on reaction drive rush follow up also good but need to time for contact",
+    "gifs": [
+      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnl1d2M2a2VyeW5mamV0ajRyanMwajc1dmRlb2o4d2NwemlpOW9kciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lfwjEATaUsCm7uzkMm/giphy.gif"
+    ]
+  },
+  {
+    "tags": [
+      "Cross up",
+      "Light block chain",
+      "Answer",
+      "Jump in",
+      "Anti space trap"
+    ],
+    "gauge": 0,
+    "SA": 0,
+    "moveSet": "4 > 1 > 1 > 1 || Micro walk back > 2HK > 3HK > 28HK || 46LP > 2MP || 4HP > 46LP",
+    "comment": "Depends if they auto poilot to press 2MK, if they do walk back for whiff punish, if not block chain to push out",
+    "gifs": [
+      "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenlwM251ejBjMmFqNWdtdWlvaHJkcDBsbWg5MWx2amhxdWNjdGV2NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QDiG11mzJEtt0y98RK/giphy.gif",
+      "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhldTVodjc3ZHhnbG1wOWIydTdtZ2I0NzVsYnIxaGtrcmhnNDEyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Re6MrtC5i9jp5pZgi9/giphy.gif",
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWkxMzdpaGw0OWdsY3I5NTh6a3Vwb2Q3aWY4eTdwd2owNWdqb3BieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tpO4JzrYeVWUpRxiXP/giphy.gif"
+    ]
+  },
+  {
     "tags": ["Perfect Loop", "Corner Pressure", "Stun", "Jump in"],
     "gauge": 4,
     "SA": 0,
     "moveSet": "9 > HK > HP > cdr.HK > 2MP > 46LP > 2MP > 46LP > 4HP > 46LP > 28HK",
     "comment": "Stun combo",
-    "gif": ""
+    "gifs": []
   },
   {
     "tags": ["Perfect Loop", "Corner Pressure", "Safe Check"],
@@ -13,7 +51,9 @@
     "SA": 0,
     "moveSet": "DR > MP > MP > 2MP > 46LP > 4HP > cdr.HK > 2MP > 46LP > 2MP > 46LP ",
     "comment": "Safe drive rush check, but require perfect boom",
-    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzU4MDRjejBraG51NDZncWVqbmlkY2txdzZobjlzdWRjd2Jha3MwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxcSyK1s0vU8BIqV1J/giphy.gif"
+    "gifs": [
+      "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzU4MDRjejBraG51NDZncWVqbmlkY2txdzZobjlzdWRjd2Jha3MwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kxcSyK1s0vU8BIqV1J/giphy.gif"
+    ]
   },
   {
     "tags": ["Safe Check", "Corner Pressure"],
@@ -21,7 +61,9 @@
     "SA": 0,
     "moveSet": "2MP >  cdr.MP > MP > 4HP > 46LP > 28HK",
     "comment": "Safe poke with 2MP cdr & MP > MP to hit confirm(2800)",
-    "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRnbm44bzcxeG1sN3RpdjF4d3hvZGtianFzbHo0eTRkaTY0dDR6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhTqXsULBUuJd3waKu/giphy.gif"
+    "gifs": [
+      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTRnbm44bzcxeG1sN3RpdjF4d3hvZGtianFzbHo0eTRkaTY0dDR6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhTqXsULBUuJd3waKu/giphy.gif"
+    ]
   },
   {
     "tags": ["Shimmy", "Corner Pressure"],
@@ -29,7 +71,9 @@
     "SA": 0,
     "moveSet": "HP(PC) > HP > cdr.HK > MP > 4HP > 46LP > 28HK",
     "comment": "Mostly use on opponent DP whiff or wake up shimmy, can also try HP poke and see. (3266)",
-    "gif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRma2VkejQ5NmZrYXgzY2l5dGF6OGFhYjE1NmZtemthMXBvaTZjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/31hCmZroNkSPlwZkVu/giphy.gif"
+    "gifs": [
+      "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRma2VkejQ5NmZrYXgzY2l5dGF6OGFhYjE1NmZtemthMXBvaTZjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/31hCmZroNkSPlwZkVu/giphy.gif"
+    ]
   },
   {
     "tags": ["Drive Rush", "Shimmy"],
@@ -37,15 +81,19 @@
     "SA": 0,
     "moveSet": "DR > 4LK > 44 > HP(PC) > cdr.HK > MP > 4HP > 46LP > 28HK",
     "comment": "Use this they are conditioned to anti throw/ delay throw tech.(3306)",
-    "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJicTJpemtiYno2cHZob3R2anh6NW1lcHkzMHdxa3p4NWduYmJkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WLzyK462HDVni0mPL2/giphy.gif"
+    "gifs": [
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJicTJpemtiYno2cHZob3R2anh6NW1lcHkzMHdxa3p4NWduYmJkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WLzyK462HDVni0mPL2/giphy.gif"
+    ]
   },
   {
     "tags": ["OKI", "Overhead"],
     "gauge": 0,
     "SA": 0,
-    "moveSet": " Oki.28HK > LK(frame kill) > 6MP > 2LP > 28HK",
+    "moveSet": "Oki.28HK > LK(frame kill) > 6MP > 2LP > 28HK",
     "comment": "Use this after heavy flash knock down for active frame kill otherwise only +2 on 6MP on hit. (2220)",
-    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJvY2hoeDBxeGNkd2lrOHRiMmF6azBsM3gxa3VyNXYxcGoxeWRubCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8XZfGkM4k2rbhN79Kl/giphy.gif"
+    "gifs": [
+      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXJvY2hoeDBxeGNkd2lrOHRiMmF6azBsM3gxa3VyNXYxcGoxeWRubCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8XZfGkM4k2rbhN79Kl/giphy.gif"
+    ]
   },
   {
     "tags": ["OKI", "Space Trap", "whiff punish", "block chain"],
@@ -53,7 +101,9 @@
     "SA": 0,
     "moveSet": "46LP > 4HP > 46LP > 2HK > 3HK > 28HK",
     "comment": "Use this after forward throw at corner to continue pressure after throw.(1720)",
-    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXNwcjB3YjBybGYwN20yaTZoczNjNzMxenEyc3d4MzF2N3U5bDJqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/abMYPU7MSStRQDwhir/giphy.gif"
+    "gifs": [
+      "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXNwcjB3YjBybGYwN20yaTZoczNjNzMxenEyc3d4MzF2N3U5bDJqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/abMYPU7MSStRQDwhir/giphy.gif"
+    ]
   },
   {
     "tags": ["Overhead", "Entry", "SA3"],
@@ -61,7 +111,9 @@
     "SA": 3,
     "moveSet": "DR > 6MP > 2MP > 28HK (2520) > level 3 (4920)",
     "comment": "Unsafe overhead entry can be used after 46LP; however, it is countered by LP. Make sure to condition with frame trap drive rush beforehand, or as a surprise attack.",
-    "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2k1OGV4N21lYzQ5N25ncmJycWtvdjJyc3QzcjRycmk2dms2NndiMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kVVap16ftD1c3Jj66u/giphy.gif"
+    "gifs": [
+      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2k1OGV4N21lYzQ5N25ncmJycWtvdjJyc3QzcjRycmk2dms2NndiMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kVVap16ftD1c3Jj66u/giphy.gif"
+    ]
   },
   {
     "tags": ["DI", "Wall Bounce"],
@@ -69,6 +121,8 @@
     "SA": 0,
     "moveSet": "DI > 2HK > 3HK > 28HK > 28KK",
     "comment": "Max damage with ex.flash (2980)",
-    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGc4eGk4dzk1cHBqMjg4dWtjeGJ1bzVnM2M4a3g3ZTgzbTV5bzVzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWtTkyz57yLuJ7pHmx/giphy.gif"
+    "gifs": [
+      "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGc4eGk4dzk1cHBqMjg4dWtjeGJ1bzVnM2M4a3g3ZTgzbTV5bzVzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWtTkyz57yLuJ7pHmx/giphy.gif"
+    ]
   }
 ]

@@ -7,7 +7,7 @@ type ComboType = {
   SA: number;
   moveSet: string;
   comment: string;
-  gif: string;
+  gifs: string[];
 };
 
 export default function Combo() {
@@ -83,13 +83,18 @@ export default function Combo() {
                 Move Set: <span className="underline">{combo.moveSet}</span>
               </p>
               <p className="text-gray-700">Comment: {combo.comment}</p>
-              <div className="flex justify-center">
-                <img
-                  src={combo.gif}
-                  alt="combo gif"
-                  className="rounded-md m-2 flex justify-center"
-                />
-              </div>
+              {combo.gifs && combo.gifs.length > 0 && (
+                <div className="flex flex-wrap justify-center">
+                  {combo.gifs.map((gifUrl, gifIdx) => (
+                    <img
+                      key={gifIdx}
+                      src={gifUrl}
+                      alt={`combo gif ${gifIdx + 1}`}
+                      className="rounded-md m-2 max-w-xs"
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           ))
         )}

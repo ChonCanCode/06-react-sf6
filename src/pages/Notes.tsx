@@ -5,6 +5,7 @@ type NoteEntry = {
   date: string;
   tags: string[];
   entry: string[];
+  gifs?: string[];
 };
 
 export default function Notes() {
@@ -13,11 +14,16 @@ export default function Notes() {
 
   useEffect(() => {
     setSearchResults(dailynotes);
-  }, [dailynotes]);
+  }, []);
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const query = searchQuery.toLowerCase().trim();
+
+    if (!query) {
+      setSearchResults(dailynotes);
+      return;
+    }
 
     const results = dailynotes.filter((note) =>
       note.tags.some((tag) => tag.toLowerCase().includes(query))
@@ -25,6 +31,7 @@ export default function Notes() {
 
     setSearchResults(results);
   };
+
   return (
     <>
       <form onSubmit={handleSearch}>
@@ -47,11 +54,24 @@ export default function Notes() {
               <p>
                 <strong>Tags:</strong> {note.tags.join(", ")}
               </p>
-              <li>
+              <ul>
                 {note.entry.map((value, i) => (
-                  <ul key={i}>{value}</ul>
+                  <li key={i}>{value}</li>
                 ))}
-              </li>
+              </ul>
+
+              {note.gifs && note.gifs.length > 0 && (
+                <div style={{ marginTop: "0.5rem" }}>
+                  {note.gifs.map((gifUrl, gifIndex) => (
+                    <img
+                      key={gifIndex}
+                      src={gifUrl}
+                      alt={`Note GIF ${gifIndex + 1}`}
+                      style={{ maxWidth: "100%", marginBottom: "0.5rem" }}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           ))
         )}
