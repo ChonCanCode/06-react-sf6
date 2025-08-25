@@ -1,5 +1,16 @@
 [
   {
+    "tags": ["Answer", "Checker", "conditioning"],
+    "gauge": 1,
+    "SA": 0,
+    "moveSet": "46LP > dr.2LP > 2LP (bait) || 2MP > cdr.HK > MP > 4HP > 29HK || 2MK > 28HK",
+    "comment": "Both options must pressed straight after 2LP bait, light whiff are unreactable.",
+    "gifs": [
+      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXhpZDg5dzM5bDA0NmJoMGE4MmpmYTZ0bGIzc25pNDByNjR3dzZsMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/23iOxEnQ5COcbeTJ5u/giphy.gif",
+      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWxsejhjMzd2a3dzM292OGtiMXhpbXB5YnJqcm5uM2ZyazY1eTh5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ULEIZl1aT4cG4ZYU4h/giphy.gif"
+    ]
+  },
+  {
     "tags": ["Akuma", "Demon Guillotine", "Answer"],
     "gauge": 1,
     "SA": 0,
@@ -36,14 +47,6 @@
       "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhldTVodjc3ZHhnbG1wOWIydTdtZ2I0NzVsYnIxaGtrcmhnNDEyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Re6MrtC5i9jp5pZgi9/giphy.gif",
       "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWkxMzdpaGw0OWdsY3I5NTh6a3Vwb2Q3aWY4eTdwd2owNWdqb3BieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tpO4JzrYeVWUpRxiXP/giphy.gif"
     ]
-  },
-  {
-    "tags": ["Perfect Loop", "Corner Pressure", "Stun", "Jump in"],
-    "gauge": 4,
-    "SA": 0,
-    "moveSet": "9 > HK > HP > cdr.HK > 2MP > 46LP > 2MP > 46LP > 4HP > 46LP > 28HK",
-    "comment": "Stun combo",
-    "gifs": []
   },
   {
     "tags": ["Perfect Loop", "Corner Pressure", "Safe Check"],
