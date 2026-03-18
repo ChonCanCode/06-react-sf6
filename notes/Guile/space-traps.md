@@ -12,8 +12,13 @@
 
 ### Zone 2 strat
 
-1. Zone 2 block chain push out
+1. Frive rush checker
    - Zone 2.5 >
      - DR > 2MK > 2MP > 46LP > HK/4HP > 46LP
    - Zone 2
-   - DR > MP > MP > 2MP > 46LP
+   - DR > 2LK > MP > 2MP > 46LP
+
+2. Jump in loop
+   - Jump in > HP/HK
+     - On hit > MP > 4HP > 28HK
+     - On block > MP > 4HP > 46LP
