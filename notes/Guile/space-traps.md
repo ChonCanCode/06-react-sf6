@@ -10,6 +10,16 @@
 
 ## Zoning
 
+### Zone 1 strat
+
+1. 2LK specials
+
+- 2LK > 2LP > 2LK
+  - Dash back to bait for whiff > 2MK > Level 1
+
+- Jump in
+- 2LK > 2LP > 2MK > Overhead > if counter hit > 28HK
+
 ### Zone 2 strat
 
 1. Frive rush checker
@@ -22,3 +32,5 @@
    - Jump in > HP/HK
      - On hit > MP > 4HP > 28HK
      - On block > MP > 4HP > 46LP
+
+### Opening
